@@ -1,0 +1,62 @@
+body {
+  background-image: url(../img/cork-board.jpg);
+}
+
+.polaroid {
+  position: relative;
+}
+
+/*.polaroid:before {
+  content: "";
+  background-image: url(../img/joeexotic.jpg);
+  background-size: cover;
+  position: absolute;
+}*/
+
+.polaroid:after {
+  content: url(../img/red-pin.png);
+  position: absolute;
+  top: 10px;
+  left: 200px;
+}
+
+/*#polaroid {
+
+  display: block;
+  margin: auto;
+}*/
+
+/*.polaroid:after {
+  content: url(../img/joeexotic.jpg);
+  position: absolute;
+}*/
+
+
+
+#joe {
+  position: absolute;
+  width: 638px;
+  height: 638px;
+  top: 118px;
+  left: 132px;
+}
+
+/*#joe {
+
+  display: block;
+  /*margin: auto;*/
+  /*top: 230px;
+  left: 430px;
+  width: 600px;
+}*/*/
+
+
+
+
+
+
+
+
+/*.pin{
+
+}*/*/
